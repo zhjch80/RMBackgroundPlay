@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8A1A0C1A2EA9EC00767D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A1A0B1A2EA9EC00767D0D /* main.m */; };
+		1D8A1A0F1A2EA9EC00767D0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A1A0E1A2EA9EC00767D0D /* AppDelegate.m */; };
+		1D8A1A1A1A2EA9EC00767D0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A191A2EA9EC00767D0D /* Images.xcassets */; };
+		1D8A1A1D1A2EA9EC00767D0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A1B1A2EA9EC00767D0D /* LaunchScreen.xib */; };
+		1D8A1A291A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A1A281A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.m */; };
+		1D8A1A331A2EAA3B00767D0D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A1A321A2EAA3B00767D0D /* AudioToolbox.framework */; };
+		1D8A1A351A2EAA4500767D0D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A1A341A2EAA4500767D0D /* MediaPlayer.framework */; };
+		1D8A1A371A2EAA5000767D0D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A1A361A2EAA5000767D0D /* CoreMedia.framework */; };
+		1D8A1A391A2EAA5700767D0D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A1A381A2EAA5700767D0D /* AVFoundation.framework */; };
+		1D8A1A3B1A2EAC0900767D0D /* 你是我的眼.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A3A1A2EAC0900767D0D /* 你是我的眼.mp3 */; };
+		1D8A1A431A2EAE4500767D0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A401A2EAE4500767D0D /* Default-568h@2x.png */; };
+		1D8A1A441A2EAE4500767D0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A411A2EAE4500767D0D /* Default.png */; };
+		1D8A1A451A2EAE4500767D0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A421A2EAE4500767D0D /* Default@2x.png */; };
+		1D8A1A491A2EAE9300767D0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A1A471A2EAE9300767D0D /* RootViewController.m */; };
+		1D8A1A4A1A2EAE9300767D0D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A481A2EAE9300767D0D /* RootViewController.xib */; };
+		1D8A1A4C1A2EB0F800767D0D /* shu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A1A4B1A2EB0F800767D0D /* shu.jpg */; };
+		1D8A1A4E1A2EB1CC00767D0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A1A4D1A2EB1CC00767D0D /* UIKit.framework */; };
+		1D8A1A501A2EB1D500767D0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A1A4F1A2EB1D500767D0D /* Foundation.framework */; };
+		1D8A1A521A2EB1DC00767D0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8A1A511A2EB1DC00767D0D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D8A1A231A2EA9ED00767D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8A19FE1A2EA9EC00767D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8A1A051A2EA9EC00767D0D;
+			remoteInfo = RMMusicBackgroudPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8A1A061A2EA9EC00767D0D /* RMMusicBackgroudPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMMusicBackgroudPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8A1A0A1A2EA9EC00767D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8A1A0B1A2EA9EC00767D0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D8A1A0D1A2EA9EC00767D0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D8A1A0E1A2EA9EC00767D0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D8A1A191A2EA9EC00767D0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D8A1A1C1A2EA9EC00767D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D8A1A221A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMMusicBackgroudPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8A1A271A2EA9ED00767D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8A1A281A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMMusicBackgroudPlayTests.m; sourceTree = "<group>"; };
+		1D8A1A321A2EAA3B00767D0D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1D8A1A341A2EAA4500767D0D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1D8A1A361A2EAA5000767D0D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1D8A1A381A2EAA5700767D0D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1D8A1A3A1A2EAC0900767D0D /* 你是我的眼.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你是我的眼.mp3"; sourceTree = "<group>"; };
+		1D8A1A401A2EAE4500767D0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D8A1A411A2EAE4500767D0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1D8A1A421A2EAE4500767D0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1D8A1A461A2EAE9300767D0D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1D8A1A471A2EAE9300767D0D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1D8A1A481A2EAE9300767D0D /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		1D8A1A4B1A2EB0F800767D0D /* shu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shu.jpg; sourceTree = "<group>"; };
+		1D8A1A4D1A2EB1CC00767D0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D8A1A4F1A2EB1D500767D0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D8A1A511A2EB1DC00767D0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8A1A031A2EA9EC00767D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8A1A521A2EB1DC00767D0D /* CoreGraphics.framework in Frameworks */,
+				1D8A1A501A2EB1D500767D0D /* Foundation.framework in Frameworks */,
+				1D8A1A4E1A2EB1CC00767D0D /* UIKit.framework in Frameworks */,
+				1D8A1A391A2EAA5700767D0D /* AVFoundation.framework in Frameworks */,
+				1D8A1A371A2EAA5000767D0D /* CoreMedia.framework in Frameworks */,
+				1D8A1A351A2EAA4500767D0D /* MediaPlayer.framework in Frameworks */,
+				1D8A1A331A2EAA3B00767D0D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8A1A1F1A2EA9ED00767D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8A19FD1A2EA9EC00767D0D = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A3A1A2EAC0900767D0D /* 你是我的眼.mp3 */,
+				1D8A1A541A2EB20100767D0D /* images */,
+				1D8A1A531A2EB1E500767D0D /* Framework */,
+				1D8A1A081A2EA9EC00767D0D /* RMMusicBackgroudPlay */,
+				1D8A1A251A2EA9ED00767D0D /* RMMusicBackgroudPlayTests */,
+				1D8A1A071A2EA9EC00767D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D8A1A071A2EA9EC00767D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A061A2EA9EC00767D0D /* RMMusicBackgroudPlay.app */,
+				1D8A1A221A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8A1A081A2EA9EC00767D0D /* RMMusicBackgroudPlay */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A0D1A2EA9EC00767D0D /* AppDelegate.h */,
+				1D8A1A0E1A2EA9EC00767D0D /* AppDelegate.m */,
+				1D8A1A461A2EAE9300767D0D /* RootViewController.h */,
+				1D8A1A471A2EAE9300767D0D /* RootViewController.m */,
+				1D8A1A481A2EAE9300767D0D /* RootViewController.xib */,
+				1D8A1A191A2EA9EC00767D0D /* Images.xcassets */,
+				1D8A1A1B1A2EA9EC00767D0D /* LaunchScreen.xib */,
+				1D8A1A091A2EA9EC00767D0D /* Supporting Files */,
+			);
+			path = RMMusicBackgroudPlay;
+			sourceTree = "<group>";
+		};
+		1D8A1A091A2EA9EC00767D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A0A1A2EA9EC00767D0D /* Info.plist */,
+				1D8A1A0B1A2EA9EC00767D0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D8A1A251A2EA9ED00767D0D /* RMMusicBackgroudPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A281A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.m */,
+				1D8A1A261A2EA9ED00767D0D /* Supporting Files */,
+			);
+			path = RMMusicBackgroudPlayTests;
+			sourceTree = "<group>";
+		};
+		1D8A1A261A2EA9ED00767D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A271A2EA9ED00767D0D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D8A1A531A2EB1E500767D0D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A381A2EAA5700767D0D /* AVFoundation.framework */,
+				1D8A1A361A2EAA5000767D0D /* CoreMedia.framework */,
+				1D8A1A341A2EAA4500767D0D /* MediaPlayer.framework */,
+				1D8A1A321A2EAA3B00767D0D /* AudioToolbox.framework */,
+				1D8A1A511A2EB1DC00767D0D /* CoreGraphics.framework */,
+				1D8A1A4F1A2EB1D500767D0D /* Foundation.framework */,
+				1D8A1A4D1A2EB1CC00767D0D /* UIKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		1D8A1A541A2EB20100767D0D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A1A401A2EAE4500767D0D /* Default-568h@2x.png */,
+				1D8A1A411A2EAE4500767D0D /* Default.png */,
+				1D8A1A421A2EAE4500767D0D /* Default@2x.png */,
+				1D8A1A4B1A2EB0F800767D0D /* shu.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D8A1A051A2EA9EC00767D0D /* RMMusicBackgroudPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8A1A2C1A2EA9ED00767D0D /* Build configuration list for PBXNativeTarget "RMMusicBackgroudPlay" */;
+			buildPhases = (
+				1D8A1A021A2EA9EC00767D0D /* Sources */,
+				1D8A1A031A2EA9EC00767D0D /* Frameworks */,
+				1D8A1A041A2EA9EC00767D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMMusicBackgroudPlay;
+			productName = RMMusicBackgroudPlay;
+			productReference = 1D8A1A061A2EA9EC00767D0D /* RMMusicBackgroudPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D8A1A211A2EA9ED00767D0D /* RMMusicBackgroudPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8A1A2F1A2EA9ED00767D0D /* Build configuration list for PBXNativeTarget "RMMusicBackgroudPlayTests" */;
+			buildPhases = (
+				1D8A1A1E1A2EA9ED00767D0D /* Sources */,
+				1D8A1A1F1A2EA9ED00767D0D /* Frameworks */,
+				1D8A1A201A2EA9ED00767D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8A1A241A2EA9ED00767D0D /* PBXTargetDependency */,
+			);
+			name = RMMusicBackgroudPlayTests;
+			productName = RMMusicBackgroudPlayTests;
+			productReference = 1D8A1A221A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D8A19FE1A2EA9EC00767D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = runmobile;
+				TargetAttributes = {
+					1D8A1A051A2EA9EC00767D0D = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = PTY98AP2WF;
+					};
+					1D8A1A211A2EA9ED00767D0D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1D8A1A051A2EA9EC00767D0D;
+					};
+				};
+			};
+			buildConfigurationList = 1D8A1A011A2EA9EC00767D0D /* Build configuration list for PBXProject "RMMusicBackgroudPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D8A19FD1A2EA9EC00767D0D;
+			productRefGroup = 1D8A1A071A2EA9EC00767D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D8A1A051A2EA9EC00767D0D /* RMMusicBackgroudPlay */,
+				1D8A1A211A2EA9ED00767D0D /* RMMusicBackgroudPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D8A1A041A2EA9EC00767D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8A1A4C1A2EB0F800767D0D /* shu.jpg in Resources */,
+				1D8A1A441A2EAE4500767D0D /* Default.png in Resources */,
+				1D8A1A4A1A2EAE9300767D0D /* RootViewController.xib in Resources */,
+				1D8A1A1D1A2EA9EC00767D0D /* LaunchScreen.xib in Resources */,
+				1D8A1A1A1A2EA9EC00767D0D /* Images.xcassets in Resources */,
+				1D8A1A431A2EAE4500767D0D /* Default-568h@2x.png in Resources */,
+				1D8A1A451A2EAE4500767D0D /* Default@2x.png in Resources */,
+				1D8A1A3B1A2EAC0900767D0D /* 你是我的眼.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8A1A201A2EA9ED00767D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8A1A021A2EA9EC00767D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8A1A0F1A2EA9EC00767D0D /* AppDelegate.m in Sources */,
+				1D8A1A0C1A2EA9EC00767D0D /* main.m in Sources */,
+				1D8A1A491A2EAE9300767D0D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8A1A1E1A2EA9ED00767D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8A1A291A2EA9ED00767D0D /* RMMusicBackgroudPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D8A1A241A2EA9ED00767D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8A1A051A2EA9EC00767D0D /* RMMusicBackgroudPlay */;
+			targetProxy = 1D8A1A231A2EA9ED00767D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D8A1A1B1A2EA9EC00767D0D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8A1A1C1A2EA9EC00767D0D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D8A1A2A1A2EA9ED00767D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D8A1A2B1A2EA9ED00767D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D8A1A2D1A2EA9ED00767D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RMMusicBackgroudPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D8A1A2E1A2EA9ED00767D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RMMusicBackgroudPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D8A1A301A2EA9ED00767D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RMMusicBackgroudPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMMusicBackgroudPlay.app/RMMusicBackgroudPlay";
+			};
+			name = Debug;
+		};
+		1D8A1A311A2EA9ED00767D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RMMusicBackgroudPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMMusicBackgroudPlay.app/RMMusicBackgroudPlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8A1A011A2EA9EC00767D0D /* Build configuration list for PBXProject "RMMusicBackgroudPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8A1A2A1A2EA9ED00767D0D /* Debug */,
+				1D8A1A2B1A2EA9ED00767D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8A1A2C1A2EA9ED00767D0D /* Build configuration list for PBXNativeTarget "RMMusicBackgroudPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8A1A2D1A2EA9ED00767D0D /* Debug */,
+				1D8A1A2E1A2EA9ED00767D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D8A1A2F1A2EA9ED00767D0D /* Build configuration list for PBXNativeTarget "RMMusicBackgroudPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8A1A301A2EA9ED00767D0D /* Debug */,
+				1D8A1A311A2EA9ED00767D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D8A19FE1A2EA9EC00767D0D /* Project object */;
+}
